@@ -29,5 +29,5 @@ a:hover {
 text-decoration: underline;
 }
 p::first-letter{
-text-size:2em;
+font-size:1.5em;
 }
