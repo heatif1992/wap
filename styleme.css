@@ -22,3 +22,12 @@ text-indent:60px;
 strong{
 	color:#FFB94E;
 }
+a:link {
+text-decoration: normal;
+}
+a:hover {
+text-decoration: underline;
+}
+p::first-letter{
+text-size:1.5em;
+}
