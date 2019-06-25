@@ -1,0 +1,24 @@
+h1{
+color:#19B5FE;
+font-family:"Courier New";
+}
+h2{
+color:#89C4F4;
+font-family:Arial;
+}
+p{
+font-family:"Times New Roman";
+}
+#aboutme {
+font-style: italic;
+font-weight: bold;
+font-size: 20px
+}
+body{
+background-color:#264348;
+color:white;
+text-indent:60px;
+}
+strong{
+	color:#FFB94E;
+}
