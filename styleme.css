@@ -23,7 +23,7 @@ strong{
 	color:#FFB94E;
 }
 a:link {
-text-decoration: overline;
+text-decoration: none;
 }
 a:hover {
 text-decoration: underline;
