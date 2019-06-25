@@ -1,0 +1,24 @@
+h1,h2{
+	color:#A4A400;
+	background-color:#F0F0F0;
+	text-decoration:underline;
+	font-family:"Lucida Sans Unicode", Helvetica, Arial, sans-serif; 
+	font-size:18pt;
+}
+h1{
+	text-align:center;
+	font-size:22pt;
+}
+p{
+	color:#404040;
+	font-size:11pt;
+	font-family:Georgia, Garamond, serif;
+}
+
+a{
+   color: #A4A400 ;	
+}
+
+u:hover + div{
+ display: block;
+}
