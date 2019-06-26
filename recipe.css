@@ -1,9 +1,16 @@
 h1,h2{
 	color:#A4A400;
-	background-color:#F0F0F0;
 	text-decoration:underline;
 	font-family:"Lucida Sans Unicode", Helvetica, Arial, sans-serif; 
 	font-size:18pt;
+}
+h1 span{
+	
+    background-color:#F0F0F0;
+}
+h2 span{
+	
+    background-color:#F0F0F0;
 }
 h1{
 	text-align:center;
@@ -22,9 +29,6 @@ a{
 u:hover + div{
  display: block;
 }
-h2{
-	border-top: 0.25em solid gray;
-}
 
 p.comment{
 	background-color:#FFFFA8;
@@ -36,4 +40,11 @@ body{
 
 ul {
   list-style-image: url('pie/pie_icon.gif');
+}
+#copyright{
+text-align:right;
+}
+
+div{
+	float:right;
 }
