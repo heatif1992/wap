@@ -1,7 +1,7 @@
 h1,h2{
 	color:#A4A400;
 	text-decoration:underline;
-	font-family:"Lucida Sans Unicode", Helvetica, Arial, sans-serif; 
+	font-family:"Lucida Sans Unicode", Helvetica, Arial,sans-serif; 
 	font-size:18pt;
 }
 h1 span{
@@ -41,7 +41,7 @@ body{
 ul {
   list-style-image: url('pie/pie_icon.gif');
 }
-#copyright{
+.Copyright{
 text-align:right;
 }
 
