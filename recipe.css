@@ -22,3 +22,18 @@ a{
 u:hover + div{
  display: block;
 }
+h2{
+	border-top: 0.25em solid gray;
+}
+
+p.comment{
+	background-color:#FFFFA8;
+	font-style:italic;
+} 
+body{
+	background-image:url("pie/silverware.jpg");
+}
+
+ul {
+  list-style-image: url('pie/pie_icon.gif');
+}
