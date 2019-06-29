@@ -106,12 +106,12 @@ p img {
 
 .column1 p {
     overflow: auto;
-    margin-bottom: 10pt;
+    margin-bottom: 20pt;
 }
 
 .column2 p {
     overflow: auto;
-    margin-bottom: 10pt;
+    margin-bottom: 20pt;
 }
 
 dt,
