@@ -2,13 +2,12 @@ body {
     background-image: url("image/background.png");
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 8pt;
-    text-align: justify;
+    margin: 0%;
 }
 
 #banner {
     background-image: url("image/bannerbg.png");
     background-repeat: repeat-x;
-    border: 5px solid green;
 }
 
 #banner img {
@@ -19,8 +18,14 @@ body {
 
 #info {
     float: right;
-    border: 5px solid red;
-    width: 25%;
+    width: 250px;
+    background-color: #A2B964;
+}
+
+#info p,
+h2 {
+    padding: 10pt;
+    font-family: Arial, sans-serif;
 }
 
 #center {
@@ -32,26 +37,26 @@ body {
     margin: auto;
 }
 
-.comment p:nth-child(odd) {
+blockquote {
     border: 2px solid gray;
     border-radius: 10px;
-    width: 100%;
-    margin-top: 2%;
+    margin: 2%;
+    padding: 8px;
     background-color: #E8DC9B;
+    overflow: auto;
+    font-weight: bold;
 }
 
-.comment {
-    -webkit-column-count: 2;
-    -webkit-column-gap: 40px;
+.column1 {
+    float: left;
+    width: 47%;
+    overflow: auto;
 }
 
-#footer {
-    float: bottom;
-    border: 5px solid blue;
-    padding: 10px;
-    margin: 10px;
-    clear: both;
-    text-align: center;
+.column2 {
+    float: right;
+    width: 47%;
+    overflow: auto;
 }
 
 h1 {
@@ -68,9 +73,9 @@ h1 {
 }
 
 #header {
+    height: 83px;
     background-image: url("image/rbg.png");
     background-repeat: repeat-x;
-    border: 5px solid black;
 }
 
 #header img {
@@ -83,4 +88,54 @@ h1 {
     font-weight: bold;
     padding: 0%;
     margin: 0%;
+}
+
+blockquote img {
+    float: left;
+    margin-right: 5px;
+}
+
+span {
+    font-style: italic;
+    margin: 2%;
+}
+
+p img {
+    float: left;
+    margin-right: 5px;
+}
+
+.column1 p {
+    overflow: auto;
+    margin-bottom: 10pt;
+}
+
+.column2 p {
+    overflow: auto;
+    margin-bottom: 10pt;
+}
+
+dt,
+dd {
+    padding: 4%;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10pt;
+}
+
+#footer {
+    float: bottom;
+    clear: both;
+    text-align: center;
+    background-color: #A2B964;
+    padding: 5px;
+}
+
+#valid {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.5;
 }
