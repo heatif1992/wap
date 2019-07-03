@@ -20,10 +20,11 @@ form{
     padding-bottom: 30px;
 }
 
-h1{
+div ~ p{
     color: #30336b;
     text-align: center;
     margin: 15px;
+    font-size: 35px;
 }
 
 div{
