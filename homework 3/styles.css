@@ -42,14 +42,6 @@ section{
     overflow: auto;
 }
 
-.right input,select{
-    float: center;
-   
-}
-.left input,select{
-    float: center;
-}
-
 .left{
     float: left;
     width: 35%;
